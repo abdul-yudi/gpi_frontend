@@ -13,13 +13,18 @@ nav.navbar, .navbar-light {
   border: none;
   border-radius: 0;
 }
-.mb-50{
-  margin-bottom: 60px;
-}
+
 .navbar-light .navbar-nav > li > a {
   color: white;
   text-decoration: none;
   padding: 10px;
+  display: block;
+  transition: color 0.4s;
+}
+
+.navbar-light .navbar-nav > li > a.active,
+.navbar-light .navbar-nav > li > a:hover{
+  color: #333;
 }
 
 .navbar-light .navbar-brand {
@@ -39,10 +44,5 @@ nav.navbar, .navbar-light {
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-  color: white;
-  background-color: transparent;
-}
-.navbar-light .navbar-nav>li>a:focus, .navbar-light .navbar-nav>li>a:hover {
-  color: white;
   background-color: transparent;
 }

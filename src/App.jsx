@@ -15,6 +15,7 @@ import Contact from './pages/contact/Contact';
 import Detail from './pages/detail/Detail';
 
 const App = () => {
+
   return (
     <Router>
       <>
