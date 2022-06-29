@@ -1,5 +1,5 @@
-import React from 'react'
-import { Button, Form, FormGroup, Label, Input, FormText, Row, Col, Container} from 'reactstrap';
+import React from 'react';
+import { Button, Form, FormGroup, Label, Input, Row, Col, Container} from 'reactstrap';
 import './Contact.css';
 
 const Contact = () => {
