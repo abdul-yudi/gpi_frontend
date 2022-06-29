@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+a, a:hover{
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #8bc34a;
+}
+
+.main-title{
+  color: #8bc34a;
+  margin-bottom: 30px;
+}
+
+.page{
+  padding-top: 120px;
+  padding-bottom: 30px;
+  min-height: calc(100vh - 37px);
+}
+.img-thumbnail{
+  padding: 0;
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-size: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+}

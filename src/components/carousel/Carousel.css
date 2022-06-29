@@ -1,0 +1,4 @@
+.carousel-wrapper .carousel-item{
+    aspect-ratio: 2/0.9;
+    overflow: hidden;
+}
