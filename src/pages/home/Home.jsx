@@ -29,7 +29,7 @@ const Home = () => {
             <Col md="4" className="cart-item" key={item.id}>
               <Card className="news-list">
                 <Link className="d-block" to={'/detail/'+item.id}>
-                  <CardImg top={true} className="w-100 img-thumbnail" src={item.image} alt="" />
+                  <CardImg className="w-100 img-thumbnail" src={item.image} alt="" />
                 </Link>
                 <CardBody>
                   <CardTitle><h4><Link to={'/detail/'+item.id}>{item.title}</Link></h4></CardTitle>

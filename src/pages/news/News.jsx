@@ -25,7 +25,7 @@ const News = () => {
             <Col md="6" className="cart-item" key={item.id}>
               <Card className="news-list">
                 <Link to={'/detail/'+item.id}>
-                  <CardImg top={true} className="w-100 img-thumbnail" src={item.image} alt="" />
+                  <CardImg className="w-100 img-thumbnail" src={item.image} alt="" />
                 </Link>
                 <CardBody>
                   <CardTitle><h4><Link to={'/detail/'+item.id}>{item.title}</Link></h4></CardTitle>

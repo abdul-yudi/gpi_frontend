@@ -12,7 +12,7 @@ const Sidebar = () => {
         </ListGroupItem>
         <ListGroupItem>
           <div className="image-div">
-              <img top={true} src="/assets/images/placeholder.jpg" className="image-left w-100" alt="Card image cap" />
+              <img src="/assets/images/placeholder.jpg" className="image-left w-100" alt="Card image cap" />
           </div>
           <div className="image-title">
               <h2 className="font14"><Link to="#">Lorem Ipsum Dolor</Link></h2>
@@ -20,7 +20,7 @@ const Sidebar = () => {
         </ListGroupItem>
         <ListGroupItem>
           <div className="image-div">
-              <img top={true} src="/assets/images/placeholder.jpg" className="image-left w-100" alt="Card image cap" />
+              <img src="/assets/images/placeholder.jpg" className="image-left w-100" alt="Card image cap" />
           </div>
           <div className="image-title">
               <h2 className="font14"><Link to="#">Lorem Ipsum Dolor</Link></h2>
@@ -28,7 +28,7 @@ const Sidebar = () => {
         </ListGroupItem>
         <ListGroupItem>
           <div className="image-div">
-              <img top={true} src="/assets/images/placeholder.jpg" className="image-left w-100" alt="Card image cap" />
+              <img src="/assets/images/placeholder.jpg" className="image-left w-100" alt="Card image cap" />
           </div>
           <div className="image-title">
               <h2 className="font14"><Link to="#">Lorem Ipsum Dolor</Link></h2>
@@ -36,7 +36,7 @@ const Sidebar = () => {
         </ListGroupItem>
         <ListGroupItem>
           <div className="image-div">
-              <img top={true} src="/assets/images/placeholder.jpg" className="image-left w-100" alt="Card image cap" />
+              <img src="/assets/images/placeholder.jpg" className="image-left w-100" alt="Card image cap" />
           </div>
           <div className="image-title">
               <h2 className="font14"><Link to="#">Lorem Ipsum Dolor</Link></h2>
@@ -44,7 +44,7 @@ const Sidebar = () => {
         </ListGroupItem>
         <ListGroupItem>
           <div className="image-div">
-              <img top={true} src="/assets/images/placeholder.jpg" className="image-left w-100" alt="Card image cap" />
+              <img src="/assets/images/placeholder.jpg" className="image-left w-100" alt="Card image cap" />
           </div>
           <div className="image-title">
               <h2 className="font14"><Link to="#">Lorem Ipsum Dolor</Link></h2>
