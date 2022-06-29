@@ -26,7 +26,7 @@ const CarouselSlider = () => {
         },
         {
             caption: 'Slide One',
-            src: '/assets/images/placeholder.jpg',
+            src: '/assets/images/placeholder3.jpg',
         },
     ];
   
